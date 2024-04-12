@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Your CSS styles */
+
+*{
+   font-family:Montserrat;
+
+}
+
+.custom-font {
+  font-family: 'Quicksand';
+}
+
+.custom-text-color {
+    color: #819CFF;
+}
+.custom-text-color-2{
+    color:#7F7F7F;
+}
+
+.custom-checkbox {
+    margin-right: 0.5rem;
+    
+}
+
+input[type='checkbox']:checked{
+    background:red;
+
+}
+
+.checkboxcustom{
+    background-color: #F1F1F1;
+    border-radius:12px;
+    width: 343px;
+    height: 50px;
+}
+
+.gradient-background {
+    background-image:linear-gradient(to right ,#819cff94
+    , white 
+    );
+
+}
+#toggle:checked + label {
+    transform: translateX(100%);
+  }
+  #toggle2:checked + label {
+    transform: translateX(100%);
+  }
+  .custom-bg  {
+    background-color: #819CFF; /* Change to the desired color */
+  }
+  
+  .custom-bg2  {
+    background-color: rgba(140, 177, 255, 0.6);
+    
+
+  }
+  .custom-bg3{
+    background-image:linear-gradient(to left ,#8DA4FF, #D1DBFF);
+    
+  }
+  
+  
+  .custom-bg4{
+    background-image:linear-gradient(to left ,#E9B1E0, #D3A5F2);
+  }

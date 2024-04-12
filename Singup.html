@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/Page.css" rel="stylesheet">
+</head>
+<body>
+    <div class="h-screen flex justify-between items-center">
+        <div class="container mx-auto p-4">
+            <h2 class="font-Montserrat text-2xl font-bold mb-4 pb-10">Create an account</h2>
+            <form class="max-w-md mx-auto" action="afterCreateFirst.html">
+                <input class="border rounded-lg p-2 mb-4 w-full bg-gray-100" type="text" placeholder="First Name">
+                <input class="border rounded-lg p-2 mb-4 w-full bg-gray-100" type="text" placeholder="Last Name">
+                <input class="border rounded-lg p-2 mb-4 w-full bg-gray-100" type="email" placeholder="Email">
+                <input class="border rounded-lg p-2 mb-4 w-full bg-gray-100" type="password" placeholder="Password">
+
+                <div class="mb-4">
+                    <label class="flex items-center pb-20">
+                        <input class="h-5 w-5 custom-checkbox " type='checkbox' class="mr-2"> <span class="custom-text-color-2">By proceeding, I agree to all  <span class="p-1 custom-text-color"> T&C</span> and  <span class="custom-text-color"> Privacy Policy</span></span>
+                    </label>
+                </div> 
+                <div class="pb-10">
+                    <button type='submit' class='bg-gradient-to-r from-blue-500 to-blue-300 hover:from-blue-700 text-white font-bold py-2 px-4 rounded-lg h-12 w-full'>Create an Account</button>
+                </div>
+                    <div class="flex items-center justify-center pb-16">
+                    <div class="flex-1 border-b border-black"></div>
+                    <div class="mx-2 ">Or</div>
+                    <div class="flex-1 border-b border-black"></div>
+                  </div>
+                  <div class="pb-6 flex items-center justify-center">
+                    <img class="w-11 h-auto mx-2 border p-1  border-black rounded-lg" src="./assets/logo.png" alt="Google logo"/>
+                    <img class="w-11 h-auto mx-2 border p-1 border-black rounded-lg" src="./assets/facebook.png" alt="Facebook logo"/>
+                </div>
+                
+                <p class="text-center">Already have an account? <a class="underline custom-text-color" href="login.html">Log in</a></p>            
+            </form>
+        </div>
+    </div>
+</body>
+</html>
